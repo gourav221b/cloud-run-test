@@ -17,6 +17,7 @@ RUN pnpm install
 COPY . .
 
 ENV NEXT_PUBLIC_VARIABLE=developmentabc
+ENV NEXT_PUBLIC_CLIENT_VARIABLE=random
 # Build the Next.js application
 RUN pnpm build
 
