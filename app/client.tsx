@@ -5,6 +5,7 @@ export default function Client() {
     <div>
       {process.env.NEXT_PUBLIC_VARIABLE}{" "}
       {process.env.NEXT_PUBLIC_CLIENT_VARIABLE}{" "}
+      hello app
     </div>
   );
 }
