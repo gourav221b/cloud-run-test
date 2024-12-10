@@ -1,5 +1,5 @@
 import Client from "./client";
-
+import "@/config/envConfig";
 export default function Home() {
   return (
     <>
